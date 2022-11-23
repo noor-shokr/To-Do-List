@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./public/**/*.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: { margin: { "26%": "26%", "70%": "70%" } },
+    container: {
+      center: true,
+      padding: "3rem",
+    },
   },
   plugins: [],
 };
